@@ -1,0 +1,176 @@
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+  .hiro .dummy {
+    display: none;
+  }
+  .service .dummy1 {
+    display: none;
+  }
+  .toggle img {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  html {
+    font-size: 15px;
+  }
+  .hiro .dummy {
+    display: none;
+  }
+  .service .dummy1 {
+    display: none;
+  }
+  .toggle img {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 769px) {
+  html {
+    font-size: 13px;
+  }
+  .hiro {
+    text-align: center;
+  }
+  .gabung {
+    display: block;
+  }
+  .hiro .kanan {
+    display: none;
+  }
+  .hiro .dummy img {
+    width: 45vw;
+  }
+  .kiri {
+    margin-top: 0;
+    float: unset;
+  }
+  .service .dummy1 {
+    display: none;
+  }
+  .toggle img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  .gabung {
+    display: block;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .web {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #3b44f6;
+    width: 100%;
+
+    transition: 0.3s;
+  }
+
+  li.nav-item {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  li.nav-item:hover {
+    background-color: #fff;
+    color: #3b44f6 !important;
+    border: 2px solid #3b44f6;
+  }
+
+  .web li a {
+    margin: 16px 0;
+  }
+
+  .web.active {
+    left: 0;
+  }
+
+  .hiro {
+    text-align: center;
+  }
+  .hiro .kanan {
+    display: none;
+  }
+  .hiro .dummy img {
+    width: 50vw;
+  }
+  .kiri {
+    margin-top: 0;
+    float: unset;
+  }
+
+  .button {
+    padding: 1.5vh;
+  }
+
+  /* layanan kmai */
+  .service .right {
+    display: none;
+  }
+
+  .dummy1 {
+    text-align: center;
+  }
+  .dummy1 img {
+    width: 50vw;
+    border-radius: 10px;
+  }
+
+  .left {
+    float: unset;
+    clear: both;
+    width: 60vw;
+    text-align: center !important;
+  }
+
+  .left > .btn {
+    display: inline-flex;
+    clear: both;
+    margin-right: 0;
+  }
+
+  /* service */
+  #why.why {
+    height: 100vh;
+  }
+  .img img {
+    width: 22vw;
+  }
+  .img ul {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .img ul li {
+    margin: 3vh 0;
+  }
+
+  #founder {
+    height: 100vh;
+  }
+
+  #founder aside {
+    flex-direction: column;
+  }
+  .f-left img {
+    width: 100%;
+  }
+  .f-right {
+    text-align: center;
+  }
+}
